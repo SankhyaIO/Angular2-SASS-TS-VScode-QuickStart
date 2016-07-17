@@ -1,0 +1,36 @@
+{
+  "name": "npmTask",
+  //...
+  "suppressTaskName": false,
+  "command": "npm",
+  "isShellCommand": true,
+  "args": [
+    "run"
+  ],
+  "tasks": [
+    {
+      //Build Task
+      "taskName": "start",
+      //Run On Shift+Ctrl+B
+      "isBuildCommand": true,
+      //Don't run when Shift+Ctrl+T
+      "isTestCommand": false,
+      // Show the output window if error any
+      "showOutput": "silent",
+      //Npm Task Name
+      "args": []
+    },
+    {
+      //Build Task
+      "taskName": "dev",
+      //Don't run when Shift+Ctrl+B
+      "isBuildCommand": false,
+      //run when Shift+Ctrl+T
+      "isTestCommand": true,
+      // Show the output window if error any
+      "showOutput": "silent",
+      //Npm Task Name
+      "args": []
+    }
+  ]
+}
