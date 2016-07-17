@@ -6,10 +6,15 @@ Dev environment using Angular 2, TypeScript and SASS for VScode
 Steps:
 
 1) Download project
+
 2) cmd> cd {project dir}
+
 3) npm install
+
 4) Open project in VScode
+
 5) ctrl + shift + B
+
 
 Chrome will open welcome page
 
